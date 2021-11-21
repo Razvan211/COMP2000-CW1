@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#318C5E"
+    tools:context=".Leaderboard5">
+
+    <EditText
+        android:id="@+id/NameID"
+        android:layout_width="217dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="180dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Admin"
+        android:textColor="#A9B630"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/LeaderboardviewID"
+        android:layout_width="307dp"
+        android:layout_height="402dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameID"
+        app:srcCompat="@color/cardview_dark_background" />
+
+    <EditText
+        android:id="@+id/FirstID"
+        android:layout_width="220dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="1. Player1        score:0000"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/LeaderboardviewID" />
+
+    <EditText
+        android:id="@+id/SecondID"
+        android:layout_width="220dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="2. Player2        score:0000"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FirstID" />
+
+    <EditText
+        android:id="@+id/ThirdID"
+        android:layout_width="220dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="3. Player3        score:0000"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SecondID" />
+
+    <EditText
+        android:id="@+id/FourID"
+        android:layout_width="220dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="4. Player4        score:0000"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ThirdID" />
+
+    <EditText
+        android:id="@+id/FiveID"
+        android:layout_width="220dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="5. Player5        score:0000"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FourID" />
+
+    <Button
+        android:id="@+id/BackLB5ID"
+        android:layout_width="220dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="32dp"
+        android:text="Back"
+        android:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LeaderboardviewID"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

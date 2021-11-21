@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#318C5E"
+    tools:context=".Game4">
+
+    <EditText
+        android:id="@+id/NameID"
+        android:layout_width="217dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="180dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Admin"
+        android:textColor="#A9B630"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Game4NameID"
+        android:layout_width="97dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="280dp"
+        android:text="Game 4:"
+        android:textAlignment="center"
+        android:textColor="#A9B630"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameID" />
+
+    <TextView
+        android:id="@+id/bScoreID"
+        android:layout_width="174dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="200dp"
+        android:text="Biggest Score:"
+        android:textAlignment="gravity"
+        android:textColor="#A9B630"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Game4NameID" />
+
+    <TextView
+        android:id="@+id/bgScoreID"
+        android:layout_width="315dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="60dp"
+        android:background="@color/cardview_dark_background"
+        android:text="000000"
+        android:textAlignment="gravity"
+        android:textColor="#A9B630"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bScoreID" />
+
+    <TextView
+        android:id="@+id/CurrencyGame3"
+        android:layout_width="174dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="25dp"
+        android:text="Currency/Energy:"
+        android:textAlignment="gravity"
+        android:textColor="#A9B630"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/CurrencyDisplay3ID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/CurrencyDisplay3ID"
+        android:layout_width="315dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="60dp"
+        android:background="@color/cardview_dark_background"
+        android:text="000000"
+        android:textAlignment="gravity"
+        android:textColor="#A9B630"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgScoreID" />
+
+    <Button
+        android:id="@+id/LeaderboardID"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Leaderboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CurrencyDisplay3ID" />
+
+    <Button
+        android:id="@+id/sHistoryID"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Score History"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LeaderboardID" />
+
+    <Button
+        android:id="@+id/Back4ID"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sHistoryID" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

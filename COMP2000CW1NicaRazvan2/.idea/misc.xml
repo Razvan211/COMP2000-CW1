@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_game1.xml" value="0.25" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_game2.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_game3.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_game4.xml" value="0.36666666666666664" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_game5.xml" value="0.36666666666666664" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_game6.xml" value="0.36666666666666664" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_leaderboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_leaderboard2.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_leaderboard3.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_leaderboard4.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_leaderboard5.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_leaderboard6.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_menu1.xml" value="0.25" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_menu2.xml" value="0.36666666666666664" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_shistory.xml" value="0.36666666666666664" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_shistory2.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_shistory3.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_shistory4.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_shistory5.xml" value="0.20520833333333333" />
+        <entry key="..\:/COMP2000CW1NicaRazvan2/app/src/main/res/layout/activity_shistory6.xml" value="0.20520833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.comp2000_cw1_nicarazvan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.COMP2000CW1NicaRazvan">
+        <activity
+            android:name=".SHistory6"
+            android:exported="false" />
+        <activity
+            android:name=".SHistory5"
+            android:exported="false" />
+        <activity
+            android:name=".SHistory4"
+            android:exported="false" />
+        <activity
+            android:name=".SHistory3"
+            android:exported="false" />
+        <activity
+            android:name=".SHistory2"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard6"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard5"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard4"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard3"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard2"
+            android:exported="false" />
+        <activity
+            android:name=".Game6"
+            android:exported="false" />
+        <activity
+            android:name=".Game5"
+            android:exported="false" />
+        <activity
+            android:name=".Game4"
+            android:exported="false" />
+        <activity
+            android:name=".Game3"
+            android:exported="false" />
+        <activity
+            android:name=".Game2"
+            android:exported="false" />
+        <activity
+            android:name=".SHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard"
+            android:exported="false" />
+        <activity
+            android:name=".Game1"
+            android:exported="false" />
+        <activity
+            android:name=".Menu2"
+            android:exported="false" />
+        <activity
+            android:name=".Menu1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
